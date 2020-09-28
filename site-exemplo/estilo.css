@@ -1,0 +1,45 @@
+body{
+    background-color: gray;
+}
+/*alinhamento do menu li e cor do fundo*/
+.menu li{
+    display:inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    float: right;
+    margin:5px;
+    list-style-type: none;
+    background-color:rgb(39, 39, 39);
+    padding: 5px;
+}
+/*fim*/
+
+/*fonte e cor do menu <a>*/
+.menu a{
+    color: greenyellow; 
+    font-size: 15px;
+    text-decoration: none;
+}
+.menu a:active{
+    color: greenyellow;
+}
+.menu a:hover{
+    color:yellow;
+    transition-duration: 1s;
+}
+
+/*fim*/
+
+/*posicao da imagem*/
+nav img{
+    position: absolute;
+}
+/*fim*/
+
+nav{
+    margin-top: -15px;
+    margin-left:350px;
+    margin-right:350px;
+}
